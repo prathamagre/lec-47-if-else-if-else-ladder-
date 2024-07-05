@@ -7,23 +7,7 @@
 </head>
 <body>
     <script>
-        const rate = parseInt(prompt("Enter rate: "))
-        const quantity = parseInt(prompt("Enter quantity: "))
         
-        const bill = rate * quantity;
-
-        if (bill>100){
-            console.log(`bill: ${bill} Rs`);
-            const discount = bill/10 ;
-            const paybleAmount = bill - discount ;
-            console.log(`discount: ${discount} Rs`);
-            console.log(`Payble Amount: ${paybleAmount} Rs`);
-        }
-        else{
-            console.log(`No discount`);
-            console.log(`Payble Amount: ${bill} Rs`);
-        }
-
     </script>
 </body>
 </html>
